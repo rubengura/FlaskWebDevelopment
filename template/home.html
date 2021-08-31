@@ -17,6 +17,13 @@
     <main>
         <section>
             <h1>Add new entry</h1>
+            <form class="form" action="/entry" method="post">
+                <p class="form__input">
+                    <label for="entry">Entry contents</label>
+                    <textarea name="sample" id="entry"></textarea>
+                </p>
+                <button type="submit" class="button-submit">Add entry</button>
+            </form>
         </section>
         <section>
             <h1>Recent Posts</h1>
